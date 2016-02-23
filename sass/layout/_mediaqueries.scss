@@ -1,0 +1,63 @@
+// ----- Desktop ----- //
+@media (max-width: 1199px) {
+
+} //End: Desktop
+
+
+
+// ----- Tablet ----- //
+@media (max-width: 991px) {
+
+} //End: Tablet
+
+
+
+// ----- Phone ----- //
+@media (max-width: 767px) {
+
+} //End: Phone
+
+
+
+// ----- 500px ----- //
+@media (max-width: 500px) {
+  h1 {
+    @include rem(font-size, 30);
+  }
+
+  #mail {
+    left: calc(50% - 90px);
+  }
+
+  #facebook {
+    left: calc(50% - 40px);
+  }
+
+  #twitter {
+    left: calc(50% + 10px);
+  }
+
+  #instagram {
+    left: calc(50% + 60px);
+  }
+
+  #github {
+    left: calc(50% - 90px);
+    top: calc(50vh + 50px);
+  }
+
+  #linkedin {
+    left: calc(50% - 40px);
+    top: calc(50vh + 50px);
+  }
+
+  #xing {
+    left: calc(50% + 10px);
+    top: calc(50vh + 50px);
+  }
+
+  #catchMeIfYouCan {
+    left: calc(50% + 60px);
+    top: calc(50vh + 50px);
+  }
+} //End: 500px
